@@ -6,6 +6,8 @@ import { MdOutlineWork } from "react-icons/md";
 import { HiMiniChatBubbleLeftRight } from "react-icons/hi2";
 import { PiVideoFill } from "react-icons/pi";
 import { RiSettingsFill } from "react-icons/ri";
+import { FaGlobe } from "react-icons/fa";
+import { FaNotesMedical } from "react-icons/fa";
 const sidebar = () => {
   return (
     <div className='flex flex-col items-start justify-between w-full h-full '>
@@ -13,10 +15,12 @@ const sidebar = () => {
         <Link href="/" className='text-2xl font-extrabold '>T e a m T r a c k e r</Link>
         <div className='flex flex-col items-start gap-5 w-full '>
         <Link href="/home" className='w-full flex items-center gap-3 text-2xl hover:bg-[#f2edde] pl-10 pr-10 pt-3 pb-3 rounded-tr-xl rounded-br-xl transition-all ease-in-out duration-150'><BiSolidDashboard/>Dashboard</Link>
-        <Link href="" className='w-full flex items-center gap-3 text-2xl hover:bg-[#f2edde] pl-10 pr-10 pt-3 pb-3 rounded-tr-xl rounded-br-xl transition-all ease-in-out duration-150'><MdOutlineWork />Your Work</Link>
+        <Link href="/home/work" className='w-full flex items-center gap-3 text-2xl hover:bg-[#f2edde] pl-10 pr-10 pt-3 pb-3 rounded-tr-xl rounded-br-xl transition-all ease-in-out duration-150'><MdOutlineWork />Your Work</Link>
         <Link href="" className='w-full flex items-center gap-3 text-2xl hover:bg-[#f2edde] pl-10 pr-10 pt-3 pb-3 rounded-tr-xl rounded-br-xl transition-all ease-in-out duration-150'><HiMiniChatBubbleLeftRight />Chat</Link>
         <Link href="" className='w-full flex items-center gap-3 text-2xl hover:bg-[#f2edde] pl-10 pr-10 pt-3 pb-3 rounded-tr-xl rounded-br-xl transition-all ease-in-out duration-150'><PiVideoFill />Meet</Link>
         <Link href="" className='w-full flex items-center gap-3 text-2xl hover:bg-[#f2edde] pl-10 pr-10 pt-3 pb-3 rounded-tr-xl rounded-br-xl transition-all ease-in-out duration-150'><RiSettingsFill />Settings</Link>
+        <Link href="" className='w-full flex items-center gap-3 text-2xl hover:bg-[#f2edde] pl-10 pr-10 pt-3 pb-3 rounded-tr-xl rounded-br-xl transition-all ease-in-out duration-150'><FaGlobe  />Browser</Link>
+        <Link href="" className='w-full flex items-center gap-3 text-2xl hover:bg-[#f2edde] pl-10 pr-10 pt-3 pb-3 rounded-tr-xl rounded-br-xl transition-all ease-in-out duration-150'><FaNotesMedical  />Notes</Link>
         </div>
         </div>
         <div className=' w-full p-5 flex flex-col gap-3 '>
