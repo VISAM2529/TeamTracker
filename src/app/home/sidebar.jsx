@@ -19,7 +19,7 @@ const sidebar = () => {
         <Link href="" className='w-full flex items-center gap-3 text-2xl hover:bg-[#f2edde] pl-10 pr-10 pt-3 pb-3 rounded-tr-xl rounded-br-xl transition-all ease-in-out duration-150'><HiMiniChatBubbleLeftRight />Chat</Link>
         <Link href="" className='w-full flex items-center gap-3 text-2xl hover:bg-[#f2edde] pl-10 pr-10 pt-3 pb-3 rounded-tr-xl rounded-br-xl transition-all ease-in-out duration-150'><PiVideoFill />Meet</Link>
         <Link href="" className='w-full flex items-center gap-3 text-2xl hover:bg-[#f2edde] pl-10 pr-10 pt-3 pb-3 rounded-tr-xl rounded-br-xl transition-all ease-in-out duration-150'><RiSettingsFill />Settings</Link>
-        <Link href="" className='w-full flex items-center gap-3 text-2xl hover:bg-[#f2edde] pl-10 pr-10 pt-3 pb-3 rounded-tr-xl rounded-br-xl transition-all ease-in-out duration-150'><FaGlobe  />Browser</Link>
+        <Link href="/home/browser" className='w-full flex items-center gap-3 text-2xl hover:bg-[#f2edde] pl-10 pr-10 pt-3 pb-3 rounded-tr-xl rounded-br-xl transition-all ease-in-out duration-150'><FaGlobe  />Browser</Link>
         <Link href="" className='w-full flex items-center gap-3 text-2xl hover:bg-[#f2edde] pl-10 pr-10 pt-3 pb-3 rounded-tr-xl rounded-br-xl transition-all ease-in-out duration-150'><FaNotesMedical  />Notes</Link>
         </div>
         </div>
