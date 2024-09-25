@@ -49,7 +49,7 @@ const page = () => {
         </div>
         <div className='w-full h-full flex gap-5'>
             <div className='w-3/4 bg-white shadow-lg rounded-xl p-5 flex flex-col gap-10'>
-                <h1 className='text-2xl font-extrabold '>Today's Tasks</h1>
+                <h1 className='text-2xl font-extrabold '>Today&apos;s Tasks</h1>
                 <div className='flex flex-col gap-5'>
                     {
                         tasks.map((task)=>{
