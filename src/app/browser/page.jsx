@@ -32,7 +32,7 @@ const Page = () => {
   };
 
   return (
-    <div className="w-full h-full flex flex-col-reverse">
+    <div className="w-full h-full flex flex-col-reverse ">
       <div className="w-full flex items-center justify-between gap-2">
         <input
           onChange={handleChangeBtn}
@@ -47,7 +47,7 @@ const Page = () => {
           E x p l o r e
         </button>
       </div>
-      <div className="p-5 flex flex-col gap-5">
+      <div className="p-5 flex flex-col gap-5 overflow-y-scroll scrollbar-none">
         {output?.map((res) => {
           return (
             <h1
