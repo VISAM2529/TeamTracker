@@ -14,12 +14,12 @@ const sidebar = () => {
         <div className='w-full h-2/3 flex flex-col items-center gap-10'>
         <Link href="/" className='text-2xl font-extrabold '>T e a m T r a c k e r</Link>
         <div className='flex flex-col items-start gap-5 w-full '>
-        <Link href="/home" className='w-full flex items-center gap-3 text-2xl hover:bg-[#f2edde] pl-10 pr-10 pt-3 pb-3 rounded-tr-xl rounded-br-xl transition-all ease-in-out duration-150'><BiSolidDashboard/>Dashboard</Link>
-        <Link href="/home/work" className='w-full flex items-center gap-3 text-2xl hover:bg-[#f2edde] pl-10 pr-10 pt-3 pb-3 rounded-tr-xl rounded-br-xl transition-all ease-in-out duration-150'><MdOutlineWork />Your Work</Link>
+        <Link href="/" className='w-full flex items-center gap-3 text-2xl hover:bg-[#f2edde] pl-10 pr-10 pt-3 pb-3 rounded-tr-xl rounded-br-xl transition-all ease-in-out duration-150'><BiSolidDashboard/>Dashboard</Link>
+        <Link href="/work" className='w-full flex items-center gap-3 text-2xl hover:bg-[#f2edde] pl-10 pr-10 pt-3 pb-3 rounded-tr-xl rounded-br-xl transition-all ease-in-out duration-150'><MdOutlineWork />Your Work</Link>
         <Link href="" className='w-full flex items-center gap-3 text-2xl hover:bg-[#f2edde] pl-10 pr-10 pt-3 pb-3 rounded-tr-xl rounded-br-xl transition-all ease-in-out duration-150'><HiMiniChatBubbleLeftRight />Chat</Link>
         <Link href="" className='w-full flex items-center gap-3 text-2xl hover:bg-[#f2edde] pl-10 pr-10 pt-3 pb-3 rounded-tr-xl rounded-br-xl transition-all ease-in-out duration-150'><PiVideoFill />Meet</Link>
         <Link href="" className='w-full flex items-center gap-3 text-2xl hover:bg-[#f2edde] pl-10 pr-10 pt-3 pb-3 rounded-tr-xl rounded-br-xl transition-all ease-in-out duration-150'><RiSettingsFill />Settings</Link>
-        <Link href="/home/browser" className='w-full flex items-center gap-3 text-2xl hover:bg-[#f2edde] pl-10 pr-10 pt-3 pb-3 rounded-tr-xl rounded-br-xl transition-all ease-in-out duration-150'><FaGlobe  />Browser</Link>
+        <Link href="/browser" className='w-full flex items-center gap-3 text-2xl hover:bg-[#f2edde] pl-10 pr-10 pt-3 pb-3 rounded-tr-xl rounded-br-xl transition-all ease-in-out duration-150'><FaGlobe  />Browser</Link>
         <Link href="" className='w-full flex items-center gap-3 text-2xl hover:bg-[#f2edde] pl-10 pr-10 pt-3 pb-3 rounded-tr-xl rounded-br-xl transition-all ease-in-out duration-150'><FaNotesMedical  />Notes</Link>
         </div>
         </div>
